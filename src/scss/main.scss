@@ -1,0 +1,102 @@
+// main.scss
+@import '_base';
+
+h1 {
+    color: tomato;
+    font-family: system-ui, -apple-system, Roboto, sans-serif;
+}
+
+.background-cover {
+    background: url('../../assets/images/bg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon-q {
+    height: 50px;
+    width: 50px !important;
+}
+
+.question-div{
+    border: 2px solid lightgray;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    //ox-shadow: 5px 2.5px 10px gray;
+}
+
+.team-member{
+    border: 2px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 2.5px 10px gray;
+    padding: 20px 20px;
+    background-color: white;
+    img {
+        vertical-align: middle;
+        border-radius: 50%;
+        height: 150px;
+        width: 150px;
+        border: 2.5px solid green;
+    }
+    margin: 10px;
+}
+
+.biom-main-section {
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100vh;
+}
+
+.biom-content {
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: auto;
+    height: 100vh;
+    width: calc(100% - 280px);
+    background-color: #ebe9e9;
+}
+
+.biom-card {
+    background-color: white;
+    border: 2px solid   ;
+    display: flex;
+    flex-direction: column;
+
+    .image {
+        height: auto;
+        height: 200px;
+    }
+
+    .content {
+        padding: 10px 10px;
+    }
+
+    &:hover {
+        box-shadow: 5px 2.5px 10px lightgray;
+        cursor: pointer;
+    }
+}
+
+.detail-view {
+    // background-color: lightgrey;
+    .cover-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 20px;
+    }
+
+    .section {
+        background-color: white;
+        border-radius: 20px;
+    }
+}
+
+  
+.card-cover {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

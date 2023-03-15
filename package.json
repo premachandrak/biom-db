@@ -1,0 +1,25 @@
+{
+  "name": "biom-database",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass:dev": "sass --watch --embed-source-map src/scss:public/styles",
+    "sass": "sass src/scss:public/styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan0131/biom-database.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dan0131/biom-database/issues"
+  },
+  "homepage": "https://github.com/dan0131/biom-database#readme",
+  "devDependencies": {
+    "sass": "^1.57.1"
+  }
+}
