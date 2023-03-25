@@ -27,6 +27,7 @@ const proteins = [
 }]
 
 function onClick(id){
+    console.log('biom-detail')
     window.location.href="biom-detail.html";
 }
 
