@@ -27,7 +27,7 @@ const proteins = [
 }]
 
 function onClick(id){
-    window.location.href="/public/biom-detail.html";
+    window.location.href="biom-detail.html";
 }
 
 const parent = document.getElementById('parent')
